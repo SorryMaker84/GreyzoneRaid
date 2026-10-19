@@ -1,0 +1,152 @@
+{
+  "official_repository": "https://github.com/notofonts/noto-cjk",
+  "pinned_commit": "f8d157532fbfaeda587e826d4cd5b21a49186f7c",
+  "license": "SIL Open Font License 1.1",
+  "font": {
+    "file": "Downloads/Fonts/NotoSansCJKsc-Regular.otf",
+    "bytes": 16437364,
+    "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf"
+  },
+  "license_file": {
+    "file": "Downloads/Fonts/LICENSE.NotoSansCJK.txt",
+    "bytes": 4301,
+    "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/LICENSE"
+  },
+  "name_table": {
+    "0": "© 2014-2021 Adobe (http://www.adobe.com/).",
+    "1": "Noto Sans CJK SC",
+    "2": "Regular",
+    "3": "2.004;GOOG;NotoSansCJKsc-Regular;ADOBE",
+    "4": "Noto Sans CJK SC",
+    "5": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+    "6": "NotoSansCJKsc-Regular",
+    "7": "Noto is a trademark of Google Inc.",
+    "8": "Adobe",
+    "9": "Ryoko NISHIZUKA 西塚涼子 (kana, bopomofo & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Sandoll Communications 산돌커뮤니케이션, Soo-young JANG 장수영 & Joo-yeon KANG 강주연 (hangul elements, letters & syllables)",
+    "10": "Dr. Ken Lunde (project architect, glyph set definition & overall production); Masataka HATTORI 服部正貴 (production & ideograph elements)",
+    "11": "http://www.google.com/get/noto/",
+    "12": "http://www.adobe.com/type/",
+    "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+    "14": "http://scripts.sil.org/OFL"
+  },
+  "unicode_cmap_codepoints": 44810,
+  "world_requested_characters": 511,
+  "world_characters": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~·×“”…、。一上下不与世丙东丢中为主乙也事亡交产人仍从仓以件价会伤位住体余作你使例保信修倒值停储元充先免入全关其兼内册再军冲准出击分创利别刮到制刺前剩功加动包北匣区医单南占卡危即卸压原叉发取受口只可台右号后向员周命和品器回围图在地场坐型域堆墙处备复多失头始子存安完实室家容密对导封射将少尽巡左已带平并库应廓开弃式弹当形往待得态急恢情意感戏成或战所手才打扣把护报抵拆择拿按损换据掉探接控揭搜携撞撤操收放敌散数斗料断新方无时明易是显普替有未本机来板枪标格检模次止正步武每毕毙没法活流测消游源滑满潜火灰点物状狙独玩现理生用由甲电画界留疗的盒盔盘目省真着瞄知硬确碰示禁离秒移稀程空穿突立站第等简管箱米粮精索线给绝继续维绿缩缺罩置而耗背胸能腾自至致舍航良色药获菜落蓝藏血行补被装西要视角计认记设试误说请败货资走起足跃跟路跳踪身转轮辨边达过运近返这进连追退选逐通逻道避部都配里重野量钮锁错键镜闭间队阵阶附险随隐集零需靠面页项须骨骼鼠（），：；",
+  "world_missing_characters": [],
+  "coverage_inputs": [
+    {
+      "path": "Scripts/audit_r5_delivery.py",
+      "sha256": "34f5e4ad88a7b99d43ef5530ef2dbbb1df4e86bcee414b0c65cddb1dc35e4411"
+    },
+    {
+      "path": "Scripts/import_r5_font.py",
+      "sha256": "2883c23eecc2c8a2ecec11dd3b57c4163cad1ca11f37bcdd537194c81984bddd"
+    },
+    {
+      "path": "Scripts/r5_text_catalog.json",
+      "sha256": "9b2aa67f5dd739c3420c4766e2c413a9bdbf24359c32a10d4656dd7a7378f119"
+    },
+    {
+      "path": "Source/GreyzoneRaid/GreyzoneRaid.cpp",
+      "sha256": "c792fa00d8bf46df25d7d1de2eaa6e609ddadec6d775b7a2bb1eb5b9130d4c5c"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidContainerTestDirector.cpp",
+      "sha256": "f1e0c9f3d0f44bde6708c06809745f9095a54785ec4604b19ffba9c66b9a1566"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidContainerTestDirector.h",
+      "sha256": "fe78062d67f42f34f24c0f509ad1a2c8bee2427562caff3bef74239ac4e4ba5a"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidEnemy.cpp",
+      "sha256": "c0b08098d739da68b6e4f34a35ff18a9cea5e25346a16443e78ad2e9aced18f6"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidEnemy.h",
+      "sha256": "47814369daae3c2e769effe56f07ac7766b8dbf396e686a8a931beceb17e66a7"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidExtractionZone.cpp",
+      "sha256": "84c944591ba65f5089cc3172519521e55f8e8085514ed7da0d0f23c59ab05ea0"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidExtractionZone.h",
+      "sha256": "cec94496de385c04f4e0116b1034d9c880aaf393241bdd4c8b3e5d1859776e7a"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidFlowDirector.cpp",
+      "sha256": "47d7e08c66fc28b5337d71414ccfc905188d88a1d4321f939f4008a6e76d2fc1"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidFlowDirector.h",
+      "sha256": "a30bdf18401b070da27db9bfc25c247c326a163ac93538f48c83724c68bffc00"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidGameMode.cpp",
+      "sha256": "2694bd51687626880859da002ba90ba88d7e50e4e7d93e6aa0ff23e24a55f4d8"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidGameMode.h",
+      "sha256": "69059d4c3f66a948ccdc8f9fa284424856ea86838dbe7ce0ff78c9166bac86f3"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidHUD.cpp",
+      "sha256": "808aa804c3ed9a8988eb01969760a29cded4eb15e636e9e97c967185b77bb617"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidHUD.h",
+      "sha256": "0ea84005be649762c76a4088dd51ab0bb0cd66b1b8aed9020f1d755c98ed987f"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidLoot.cpp",
+      "sha256": "e7967a55f9e877714eb443f15574aad86e2ebdeba4958d5a3ea8f4edd6bec8b8"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidLoot.h",
+      "sha256": "091d9735d8c0d27e0cbca8272c2ce8c7a8de8107fa902deff9be4121a484dda5"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidNavBounds.cpp",
+      "sha256": "d52f20ce6732ecd781ed7beaf29ee1e02768da6ea4459f295d8dc9beea2cb934"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidNavBounds.h",
+      "sha256": "c1b8ac888ceaed2f01e3386377e045c1a9da9caeeb88d840956e11ef243cb23f"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidPlayer.cpp",
+      "sha256": "cb5d31c5a50f7eac24d57ac542cfaba06faaa8cca3388889167b6f45b5a084b0"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidPlayer.h",
+      "sha256": "19af6d58feef68476d83f4cd783d62f9a68f443265a9bc19d54d58ab1ce245a2"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidTestDirector.cpp",
+      "sha256": "fd6a62e2f03d689a10bc6079c9016ffb1d3b3a155b904300b8af41d7b86ffbb3"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidTestDirector.h",
+      "sha256": "cb362eae38a267e2f9d581c3501c17d65355c6339e612999356d27cbe2432a11"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidText.cpp",
+      "sha256": "b7d086026571a4ebc2327296879366edb68563a670275721846dde7d5c961171"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidText.h",
+      "sha256": "207237592a09de7a88240f74707dc93a76ea69003efa4fb6ab6fc1e013f2cd3a"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidVisualDirector.cpp",
+      "sha256": "9ef9aa47a8cebe0e1f680447a0f73fae213e1eb406dacee629cb79c0cd6aafbf"
+    },
+    {
+      "path": "Source/GreyzoneRaid/RaidVisualDirector.h",
+      "sha256": "95293bd2fd0e467e0b6aacb1f32716f127ee7fdda8556c8823ea857c092dda94"
+    }
+  ]
+}

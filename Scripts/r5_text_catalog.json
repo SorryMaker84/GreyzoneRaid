@@ -1,0 +1,20 @@
+{
+  "items": {
+    "Electronics": "电子元件", "Medkit": "医疗包", "Medical kit": "医疗包",
+    "Field rations": "野战口粮", "Data drive": "数据硬盘",
+    "Encrypted data drive": "加密数据硬盘", "Encrypted radio": "加密电台",
+    "Ammunition": "弹药补给"
+  },
+  "static_text": {
+    "DEPOT  /  07": "仓储区 / 07", "CARGO_A / 07": "甲区货箱 / 07",
+    "CARGO_B / 07": "乙区货箱 / 07", "CARGO_C / 07": "丙区货箱 / 07",
+    "BAY 01": "装卸位 01", "BAY 02": "装卸位 02", "BAY 03": "装卸位 03",
+    "SECURED": "已封锁", "DANGER": "危险", "UTILITY  /  RESTRICTED": "设备区 / 禁止进入",
+    "CARGO STACK  /  07": "货物堆场 / 07", "02  /  LOADING BAYS": "02 / 装卸通道",
+    "01  /  SERVICE ROAD  >": "01 / 维修道路 >", "03  /  CARGO CROSSING": "03 / 货运交叉口",
+    "EXTRACTION  /  08 SEC": "撤离区 / 等待 8 秒", "SECURE AT LEAST ONE SUPPLY": "至少携带一件物资",
+    "CARGO": "货物", "AID": "医疗", "FIELD SUPPLIES": "野战补给",
+    "EXTRACTION  /  08 SECONDS": "撤离区 / 等待 8 秒", "CARGO  07": "货物堆场 07",
+    "GREYZONE  /  STORAGE YARD": "灰域突围 / 仓储区"
+  }
+}

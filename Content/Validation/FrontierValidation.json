@@ -1,0 +1,1819 @@
+{
+  "schema_version": 1,
+  "map": "/Game/Maps/Frontier",
+  "units": "cm",
+  "north_axis": "+Y",
+  "bounds_cm": {
+    "min": [
+      -8000,
+      -7000,
+      -280
+    ],
+    "max": [
+      8000,
+      7000,
+      1800
+    ]
+  },
+  "spawn": {
+    "location_cm": [
+      -7000,
+      -6100,
+      100
+    ],
+    "yaw": 35
+  },
+  "zones": [
+    {
+      "id": "support",
+      "name": "后勤检查站",
+      "bounds_xy": [
+        -8000,
+        -7000,
+        -3000,
+        1000
+      ]
+    },
+    {
+      "id": "medical",
+      "name": "营房医疗区",
+      "bounds_xy": [
+        -8000,
+        1000,
+        0,
+        7000
+      ]
+    },
+    {
+      "id": "warehouse",
+      "name": "中央仓储区",
+      "bounds_xy": [
+        -3000,
+        -4200,
+        3000,
+        3000
+      ]
+    },
+    {
+      "id": "fuel",
+      "name": "燃料与排水区",
+      "bounds_xy": [
+        3000,
+        -7000,
+        8000,
+        3000
+      ]
+    },
+    {
+      "id": "comms",
+      "name": "通讯台地区",
+      "bounds_xy": [
+        0,
+        3000,
+        8000,
+        7000
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "id": "Gatehouse",
+      "zone": "support",
+      "bounds_xy": [
+        -7100.0,
+        -5300.0,
+        -5900.0,
+        -4300.0
+      ],
+      "floor_heights_cm": [
+        0
+      ],
+      "doors": [
+        {
+          "side": "south",
+          "location_cm": [
+            -6500,
+            -5300.0,
+            0
+          ],
+          "width_cm": 240,
+          "height_cm": 270
+        },
+        {
+          "side": "east",
+          "location_cm": [
+            -5900.0,
+            -4800,
+            0
+          ],
+          "width_cm": 240,
+          "height_cm": 270
+        }
+      ]
+    },
+    {
+      "id": "Maintenance",
+      "zone": "support",
+      "bounds_xy": [
+        -5900.0,
+        -3200.0,
+        -3700.0,
+        -1400.0
+      ],
+      "floor_heights_cm": [
+        0
+      ],
+      "doors": [
+        {
+          "side": "south",
+          "location_cm": [
+            -4700,
+            -3200.0,
+            0
+          ],
+          "width_cm": 500,
+          "height_cm": 380
+        },
+        {
+          "side": "east",
+          "location_cm": [
+            -3700.0,
+            -2300,
+            0
+          ],
+          "width_cm": 260,
+          "height_cm": 280
+        }
+      ]
+    },
+    {
+      "id": "Medical",
+      "zone": "medical",
+      "bounds_xy": [
+        -7100.0,
+        1950.0,
+        -4700.0,
+        3650.0
+      ],
+      "floor_heights_cm": [
+        0
+      ],
+      "doors": [
+        {
+          "side": "south",
+          "location_cm": [
+            -5900,
+            1950.0,
+            0
+          ],
+          "width_cm": 260,
+          "height_cm": 280
+        },
+        {
+          "side": "east",
+          "location_cm": [
+            -4700.0,
+            2850,
+            0
+          ],
+          "width_cm": 260,
+          "height_cm": 280
+        }
+      ]
+    },
+    {
+      "id": "Barracks",
+      "zone": "medical",
+      "bounds_xy": [
+        -5000.0,
+        3900.0,
+        -2600.0,
+        5500.0
+      ],
+      "floor_heights_cm": [
+        0
+      ],
+      "doors": [
+        {
+          "side": "south",
+          "location_cm": [
+            -3650,
+            3900.0,
+            0
+          ],
+          "width_cm": 240,
+          "height_cm": 280
+        },
+        {
+          "side": "west",
+          "location_cm": [
+            -5000.0,
+            4500,
+            0
+          ],
+          "width_cm": 240,
+          "height_cm": 280
+        }
+      ]
+    },
+    {
+      "id": "Warehouse",
+      "zone": "warehouse",
+      "bounds_xy": [
+        -2400.0,
+        -1400.0,
+        1800.0,
+        1800.0
+      ],
+      "floor_heights_cm": [
+        0,
+        400
+      ],
+      "doors": [
+        {
+          "side": "south",
+          "location_cm": [
+            -1000,
+            -1400.0,
+            0
+          ],
+          "width_cm": 600,
+          "height_cm": 460
+        },
+        {
+          "side": "west",
+          "location_cm": [
+            -2400.0,
+            500,
+            0
+          ],
+          "width_cm": 240,
+          "height_cm": 290
+        },
+        {
+          "side": "east",
+          "location_cm": [
+            1800.0,
+            400,
+            0
+          ],
+          "width_cm": 500,
+          "height_cm": 470
+        }
+      ]
+    },
+    {
+      "id": "PumpHouse",
+      "zone": "fuel",
+      "bounds_xy": [
+        3800.0,
+        -3850.0,
+        5800.0,
+        -2350.0
+      ],
+      "floor_heights_cm": [
+        0
+      ],
+      "doors": [
+        {
+          "side": "north",
+          "location_cm": [
+            4800,
+            -2350.0,
+            0
+          ],
+          "width_cm": 300,
+          "height_cm": 300
+        },
+        {
+          "side": "west",
+          "location_cm": [
+            3800.0,
+            -3000,
+            0
+          ],
+          "width_cm": 260,
+          "height_cm": 300
+        }
+      ]
+    },
+    {
+      "id": "CommsControl",
+      "zone": "comms",
+      "bounds_xy": [
+        600.0,
+        3600.0,
+        3000.0,
+        5400.0
+      ],
+      "floor_heights_cm": [
+        300,
+        700
+      ],
+      "doors": [
+        {
+          "side": "south",
+          "location_cm": [
+            1800,
+            3600.0,
+            300
+          ],
+          "width_cm": 300,
+          "height_cm": 300
+        },
+        {
+          "side": "east",
+          "location_cm": [
+            3000.0,
+            4500,
+            300
+          ],
+          "width_cm": 280,
+          "height_cm": 300
+        }
+      ]
+    }
+  ],
+  "ramps": [
+    {
+      "id": "Plateau_WestRamp",
+      "bottom_cm": [
+        -1000,
+        4400,
+        0
+      ],
+      "top_cm": [
+        0,
+        4400,
+        300
+      ],
+      "width_cm": 800,
+      "slope_degrees": 16.69924423399362
+    },
+    {
+      "id": "Plateau_MainRamp",
+      "bottom_cm": [
+        4200,
+        2600,
+        0
+      ],
+      "top_cm": [
+        4200,
+        3600,
+        300
+      ],
+      "width_cm": 800,
+      "slope_degrees": 16.69924423399362
+    },
+    {
+      "id": "Drainage_WestRamp",
+      "bottom_cm": [
+        1000,
+        -4550,
+        0
+      ],
+      "top_cm": [
+        2000,
+        -4550,
+        -280
+      ],
+      "width_cm": 650,
+      "slope_degrees": 15.642246457208728
+    },
+    {
+      "id": "Drainage_EastRamp",
+      "bottom_cm": [
+        6200,
+        -4550,
+        -280
+      ],
+      "top_cm": [
+        7200,
+        -4550,
+        0
+      ],
+      "width_cm": 650,
+      "slope_degrees": 15.642246457208728
+    },
+    {
+      "id": "Warehouse_MezzanineRamp",
+      "bottom_cm": [
+        1200,
+        0,
+        0
+      ],
+      "top_cm": [
+        1200,
+        1000,
+        400
+      ],
+      "width_cm": 260,
+      "slope_degrees": 21.80140948635181
+    },
+    {
+      "id": "Comms_InteriorRamp",
+      "bottom_cm": [
+        1100,
+        3900,
+        300
+      ],
+      "top_cm": [
+        1100,
+        4700,
+        700
+      ],
+      "width_cm": 260,
+      "slope_degrees": 26.56505117707799
+    }
+  ],
+  "routes": [
+    {
+      "id": "insertion_warehouse",
+      "name": "后勤至仓库主路",
+      "waypoints_cm": [
+        [
+          -7000,
+          -6100,
+          0
+        ],
+        [
+          -7000,
+          -5500,
+          0
+        ],
+        [
+          -5700,
+          -5500,
+          0
+        ],
+        [
+          -5700,
+          -3600,
+          0
+        ],
+        [
+          -3000,
+          -3500,
+          0
+        ],
+        [
+          -3000,
+          -2200,
+          0
+        ],
+        [
+          -1000,
+          -2200,
+          0
+        ],
+        [
+          -1000,
+          -1200,
+          0
+        ],
+        [
+          -1000,
+          -400,
+          0
+        ]
+      ],
+      "anchor_tags": [
+        "R7Route:insertion_warehouse:0",
+        "R7Route:insertion_warehouse:1",
+        "R7Route:insertion_warehouse:2",
+        "R7Route:insertion_warehouse:3",
+        "R7Route:insertion_warehouse:4",
+        "R7Route:insertion_warehouse:5",
+        "R7Route:insertion_warehouse:6",
+        "R7Route:insertion_warehouse:7",
+        "R7Route:insertion_warehouse:8"
+      ]
+    },
+    {
+      "id": "warehouse_mezzanine",
+      "name": "仓库夹层",
+      "waypoints_cm": [
+        [
+          -1000,
+          -400,
+          0
+        ],
+        [
+          -1000,
+          -1050,
+          0
+        ],
+        [
+          100,
+          -1050,
+          0
+        ],
+        [
+          1200,
+          -300,
+          0
+        ],
+        [
+          1200,
+          0,
+          0
+        ],
+        [
+          1200,
+          500,
+          200
+        ],
+        [
+          1200,
+          1000,
+          400
+        ],
+        [
+          800,
+          1350,
+          400
+        ],
+        [
+          -700,
+          1350,
+          400
+        ]
+      ],
+      "anchor_tags": [
+        "R7Route:warehouse_mezzanine:0",
+        "R7Route:warehouse_mezzanine:1",
+        "R7Route:warehouse_mezzanine:2",
+        "R7Route:warehouse_mezzanine:3",
+        "R7Route:warehouse_mezzanine:4",
+        "R7Route:warehouse_mezzanine:5",
+        "R7Route:warehouse_mezzanine:6",
+        "R7Route:warehouse_mezzanine:7",
+        "R7Route:warehouse_mezzanine:8"
+      ]
+    },
+    {
+      "id": "warehouse_comms",
+      "name": "仓库至通讯主路",
+      "waypoints_cm": [
+        [
+          700,
+          400,
+          0
+        ],
+        [
+          700,
+          -350,
+          0
+        ],
+        [
+          1550,
+          -350,
+          0
+        ],
+        [
+          1550,
+          400,
+          0
+        ],
+        [
+          1900,
+          400,
+          0
+        ],
+        [
+          2700,
+          2400,
+          0
+        ],
+        [
+          4200,
+          2550,
+          0
+        ],
+        [
+          4200,
+          2600,
+          0
+        ],
+        [
+          4200,
+          3100,
+          150
+        ],
+        [
+          4200,
+          3600,
+          300
+        ],
+        [
+          3400,
+          3600,
+          300
+        ],
+        [
+          3400,
+          3450,
+          300
+        ],
+        [
+          1800,
+          3450,
+          300
+        ],
+        [
+          1800,
+          3750,
+          300
+        ]
+      ],
+      "anchor_tags": [
+        "R7Route:warehouse_comms:0",
+        "R7Route:warehouse_comms:1",
+        "R7Route:warehouse_comms:2",
+        "R7Route:warehouse_comms:3",
+        "R7Route:warehouse_comms:4",
+        "R7Route:warehouse_comms:5",
+        "R7Route:warehouse_comms:6",
+        "R7Route:warehouse_comms:7",
+        "R7Route:warehouse_comms:8",
+        "R7Route:warehouse_comms:9",
+        "R7Route:warehouse_comms:10",
+        "R7Route:warehouse_comms:11",
+        "R7Route:warehouse_comms:12",
+        "R7Route:warehouse_comms:13"
+      ]
+    },
+    {
+      "id": "comms_upper",
+      "name": "通讯上层终端",
+      "waypoints_cm": [
+        [
+          1800,
+          3750,
+          300
+        ],
+        [
+          1550,
+          3950,
+          300
+        ],
+        [
+          1100,
+          3900,
+          300
+        ],
+        [
+          1100,
+          4300,
+          500
+        ],
+        [
+          1100,
+          4700,
+          700
+        ],
+        [
+          1450,
+          4850,
+          700
+        ],
+        [
+          1750,
+          4900,
+          700
+        ],
+        [
+          1980,
+          4900,
+          700
+        ]
+      ],
+      "anchor_tags": [
+        "R7Route:comms_upper:0",
+        "R7Route:comms_upper:1",
+        "R7Route:comms_upper:2",
+        "R7Route:comms_upper:3",
+        "R7Route:comms_upper:4",
+        "R7Route:comms_upper:5",
+        "R7Route:comms_upper:6",
+        "R7Route:comms_upper:7"
+      ]
+    },
+    {
+      "id": "western_perimeter",
+      "name": "外围医疗搜刮线",
+      "waypoints_cm": [
+        [
+          -7400,
+          -4200,
+          0
+        ],
+        [
+          -7400,
+          1400,
+          0
+        ],
+        [
+          -5900,
+          1500,
+          0
+        ],
+        [
+          -5900,
+          2100,
+          0
+        ],
+        [
+          -6200,
+          2650,
+          0
+        ],
+        [
+          -6050,
+          2800,
+          0
+        ],
+        [
+          -5650,
+          2800,
+          0
+        ],
+        [
+          -5200,
+          2800,
+          0
+        ],
+        [
+          -4500,
+          2800,
+          0
+        ],
+        [
+          -3900,
+          3300,
+          0
+        ],
+        [
+          -2200,
+          3300,
+          0
+        ],
+        [
+          -1300,
+          4400,
+          0
+        ],
+        [
+          -1000,
+          4400,
+          0
+        ],
+        [
+          -500,
+          4400,
+          150
+        ],
+        [
+          0,
+          4400,
+          300
+        ],
+        [
+          400,
+          4400,
+          300
+        ]
+      ],
+      "anchor_tags": [
+        "R7Route:western_perimeter:0",
+        "R7Route:western_perimeter:1",
+        "R7Route:western_perimeter:2",
+        "R7Route:western_perimeter:3",
+        "R7Route:western_perimeter:4",
+        "R7Route:western_perimeter:5",
+        "R7Route:western_perimeter:6",
+        "R7Route:western_perimeter:7",
+        "R7Route:western_perimeter:8",
+        "R7Route:western_perimeter:9",
+        "R7Route:western_perimeter:10",
+        "R7Route:western_perimeter:11",
+        "R7Route:western_perimeter:12",
+        "R7Route:western_perimeter:13",
+        "R7Route:western_perimeter:14",
+        "R7Route:western_perimeter:15"
+      ]
+    },
+    {
+      "id": "southern_extraction",
+      "name": "燃料站至南侧撤离",
+      "waypoints_cm": [
+        [
+          1900,
+          400,
+          0
+        ],
+        [
+          3200,
+          -1400,
+          0
+        ],
+        [
+          3500,
+          -2100,
+          0
+        ],
+        [
+          6100,
+          -2150,
+          0
+        ],
+        [
+          6800,
+          -3500,
+          0
+        ],
+        [
+          7600,
+          -3900,
+          0
+        ],
+        [
+          7600,
+          -5500,
+          0
+        ],
+        [
+          6900,
+          -6000,
+          0
+        ]
+      ],
+      "anchor_tags": [
+        "R7Route:southern_extraction:0",
+        "R7Route:southern_extraction:1",
+        "R7Route:southern_extraction:2",
+        "R7Route:southern_extraction:3",
+        "R7Route:southern_extraction:4",
+        "R7Route:southern_extraction:5",
+        "R7Route:southern_extraction:6",
+        "R7Route:southern_extraction:7"
+      ]
+    },
+    {
+      "id": "drainage",
+      "name": "下沉排水替代路线",
+      "waypoints_cm": [
+        [
+          1000,
+          -4550,
+          0
+        ],
+        [
+          1500,
+          -4550,
+          -140
+        ],
+        [
+          2000,
+          -4550,
+          -280
+        ],
+        [
+          3800,
+          -4550,
+          -280
+        ],
+        [
+          4500,
+          -4550,
+          -280
+        ],
+        [
+          5700,
+          -4550,
+          -280
+        ],
+        [
+          6200,
+          -4550,
+          -280
+        ],
+        [
+          6700,
+          -4550,
+          -140
+        ],
+        [
+          7200,
+          -4550,
+          0
+        ],
+        [
+          7600,
+          -5100,
+          0
+        ],
+        [
+          6900,
+          -6000,
+          0
+        ]
+      ],
+      "anchor_tags": [
+        "R7Route:drainage:0",
+        "R7Route:drainage:1",
+        "R7Route:drainage:2",
+        "R7Route:drainage:3",
+        "R7Route:drainage:4",
+        "R7Route:drainage:5",
+        "R7Route:drainage:6",
+        "R7Route:drainage:7",
+        "R7Route:drainage:8",
+        "R7Route:drainage:9",
+        "R7Route:drainage:10"
+      ]
+    },
+    {
+      "id": "northern_extraction",
+      "name": "通讯至北侧撤离",
+      "waypoints_cm": [
+        [
+          3150,
+          4500,
+          300
+        ],
+        [
+          3650,
+          5300,
+          300
+        ],
+        [
+          5000,
+          5700,
+          300
+        ],
+        [
+          5700,
+          5900,
+          300
+        ],
+        [
+          6500,
+          5900,
+          300
+        ]
+      ],
+      "anchor_tags": [
+        "R7Route:northern_extraction:0",
+        "R7Route:northern_extraction:1",
+        "R7Route:northern_extraction:2",
+        "R7Route:northern_extraction:3",
+        "R7Route:northern_extraction:4"
+      ]
+    }
+  ],
+  "loot": [
+    {
+      "id": "S01",
+      "actor_label": "S01",
+      "actor_tag": "R7Id:S01",
+      "zone": "support",
+      "location_cm": [
+        -6600,
+        -4900,
+        48
+      ],
+      "item_id": "Medkit",
+      "value": 75,
+      "rows": 2
+    },
+    {
+      "id": "S02",
+      "actor_label": "S02",
+      "actor_tag": "R7Id:S02",
+      "zone": "support",
+      "location_cm": [
+        -4700,
+        -2700,
+        143
+      ],
+      "item_id": "Ammo",
+      "value": 35,
+      "rows": 2
+    },
+    {
+      "id": "S03",
+      "actor_label": "S03",
+      "actor_tag": "R7Id:S03",
+      "zone": "support",
+      "location_cm": [
+        -5350,
+        -1650,
+        48
+      ],
+      "item_id": "Tech",
+      "value": 90,
+      "rows": 2
+    },
+    {
+      "id": "S04",
+      "actor_label": "S04",
+      "actor_tag": "R7Id:S04",
+      "zone": "support",
+      "location_cm": [
+        -6600,
+        -700,
+        48
+      ],
+      "item_id": "Rations",
+      "value": 40,
+      "rows": 2
+    },
+    {
+      "id": "M01",
+      "actor_label": "M01",
+      "actor_tag": "R7Id:M01",
+      "zone": "medical",
+      "location_cm": [
+        -6500,
+        3000,
+        143
+      ],
+      "item_id": "Medkit",
+      "value": 75,
+      "rows": 2
+    },
+    {
+      "id": "M02",
+      "actor_label": "M02",
+      "actor_tag": "R7Id:M02",
+      "zone": "medical",
+      "location_cm": [
+        -5000,
+        3200,
+        48
+      ],
+      "item_id": "Medkit",
+      "value": 60,
+      "rows": 2
+    },
+    {
+      "id": "M03",
+      "actor_label": "M03",
+      "actor_tag": "R7Id:M03",
+      "zone": "medical",
+      "location_cm": [
+        -4300,
+        4900,
+        48
+      ],
+      "item_id": "Ammo",
+      "value": 35,
+      "rows": 2
+    },
+    {
+      "id": "M04",
+      "actor_label": "M04",
+      "actor_tag": "R7Id:M04",
+      "zone": "medical",
+      "location_cm": [
+        -3100,
+        4500,
+        143
+      ],
+      "item_id": "Tech",
+      "value": 140,
+      "rows": 2
+    },
+    {
+      "id": "W01",
+      "actor_label": "W01",
+      "actor_tag": "R7Id:W01",
+      "zone": "warehouse",
+      "location_cm": [
+        -1700,
+        -700,
+        48
+      ],
+      "item_id": "Ammo",
+      "value": 35,
+      "rows": 2
+    },
+    {
+      "id": "W02",
+      "actor_label": "W02",
+      "actor_tag": "R7Id:W02",
+      "zone": "warehouse",
+      "location_cm": [
+        -900,
+        350,
+        143
+      ],
+      "item_id": "Tech",
+      "value": 260,
+      "rows": 2
+    },
+    {
+      "id": "W03",
+      "actor_label": "W03",
+      "actor_tag": "R7Id:W03",
+      "zone": "warehouse",
+      "location_cm": [
+        500,
+        -450,
+        48
+      ],
+      "item_id": "Rations",
+      "value": 40,
+      "rows": 2
+    },
+    {
+      "id": "W04",
+      "actor_label": "W04",
+      "actor_tag": "R7Id:W04",
+      "zone": "warehouse",
+      "location_cm": [
+        -1200,
+        1400,
+        448
+      ],
+      "item_id": "Tech",
+      "value": 360,
+      "rows": 2
+    },
+    {
+      "id": "W05",
+      "actor_label": "W05",
+      "actor_tag": "R7Id:W05",
+      "zone": "warehouse",
+      "location_cm": [
+        450,
+        1400,
+        448
+      ],
+      "item_id": "Tech",
+      "value": 320,
+      "rows": 2
+    },
+    {
+      "id": "W06",
+      "actor_label": "W06",
+      "actor_tag": "R7Id:W06",
+      "zone": "warehouse",
+      "location_cm": [
+        2300,
+        -2200,
+        48
+      ],
+      "item_id": "Medkit",
+      "value": 75,
+      "rows": 2
+    },
+    {
+      "id": "F01",
+      "actor_label": "F01",
+      "actor_tag": "R7Id:F01",
+      "zone": "fuel",
+      "location_cm": [
+        4200,
+        -3200,
+        48
+      ],
+      "item_id": "Ammo",
+      "value": 35,
+      "rows": 2
+    },
+    {
+      "id": "F02",
+      "actor_label": "F02",
+      "actor_tag": "R7Id:F02",
+      "zone": "fuel",
+      "location_cm": [
+        5350,
+        -2800,
+        143
+      ],
+      "item_id": "Tech",
+      "value": 190,
+      "rows": 2
+    },
+    {
+      "id": "F03",
+      "actor_label": "F03",
+      "actor_tag": "R7Id:F03",
+      "zone": "fuel",
+      "location_cm": [
+        6550,
+        800,
+        48
+      ],
+      "item_id": "Tech",
+      "value": 230,
+      "rows": 2
+    },
+    {
+      "id": "F04",
+      "actor_label": "F04",
+      "actor_tag": "R7Id:F04",
+      "zone": "fuel",
+      "location_cm": [
+        3900,
+        1400,
+        48
+      ],
+      "item_id": "Medkit",
+      "value": 75,
+      "rows": 2
+    },
+    {
+      "id": "F05",
+      "actor_label": "F05",
+      "actor_tag": "R7Id:F05",
+      "zone": "fuel",
+      "location_cm": [
+        5700,
+        -4550,
+        -232
+      ],
+      "item_id": "Tech",
+      "value": 170,
+      "rows": 2
+    },
+    {
+      "id": "C01",
+      "actor_label": "C01",
+      "actor_tag": "R7Id:C01",
+      "zone": "comms",
+      "location_cm": [
+        1300,
+        4150,
+        348
+      ],
+      "item_id": "Ammo",
+      "value": 35,
+      "rows": 2
+    },
+    {
+      "id": "C02",
+      "actor_label": "C02",
+      "actor_tag": "R7Id:C02",
+      "zone": "comms",
+      "location_cm": [
+        2650,
+        4050,
+        348
+      ],
+      "item_id": "Medkit",
+      "value": 75,
+      "rows": 2
+    },
+    {
+      "id": "C03",
+      "actor_label": "C03",
+      "actor_tag": "R7Id:C03",
+      "zone": "comms",
+      "location_cm": [
+        1450,
+        5050,
+        748
+      ],
+      "item_id": "Tech",
+      "value": 420,
+      "rows": 2
+    },
+    {
+      "id": "C04",
+      "actor_label": "C04",
+      "actor_tag": "R7Id:C04",
+      "zone": "comms",
+      "location_cm": [
+        4200,
+        4600,
+        348
+      ],
+      "item_id": "Tech",
+      "value": 280,
+      "rows": 2
+    },
+    {
+      "id": "C05",
+      "actor_label": "C05",
+      "actor_tag": "R7Id:C05",
+      "zone": "comms",
+      "location_cm": [
+        6000,
+        5200,
+        348
+      ],
+      "item_id": "Rations",
+      "value": 40,
+      "rows": 2
+    }
+  ],
+  "guards": [
+    {
+      "id": "SupportPatrol",
+      "actor_label": "SupportPatrol",
+      "actor_tag": "R7Id:SupportPatrol",
+      "zone": "support",
+      "location_cm": [
+        -4200,
+        -1000,
+        96
+      ],
+      "patrol_points_cm": [
+        [
+          -4200,
+          -1000,
+          95
+        ],
+        [
+          -3600,
+          -1300,
+          95
+        ],
+        [
+          -3500,
+          -2600,
+          95
+        ]
+      ],
+      "detection_radius_cm": 1150,
+      "attack_range_cm": 750
+    },
+    {
+      "id": "MedicalPatrol",
+      "actor_label": "MedicalPatrol",
+      "actor_tag": "R7Id:MedicalPatrol",
+      "zone": "medical",
+      "location_cm": [
+        -4100,
+        3200,
+        96
+      ],
+      "patrol_points_cm": [
+        [
+          -4500,
+          3200,
+          95
+        ],
+        [
+          -3800,
+          3200,
+          95
+        ],
+        [
+          -3300,
+          3600,
+          95
+        ]
+      ],
+      "detection_radius_cm": 1300,
+      "attack_range_cm": 800
+    },
+    {
+      "id": "WarehouseWest",
+      "actor_label": "WarehouseWest",
+      "actor_tag": "R7Id:WarehouseWest",
+      "zone": "warehouse",
+      "location_cm": [
+        -1650,
+        -200,
+        96
+      ],
+      "patrol_points_cm": [
+        [
+          -1650,
+          -200,
+          95
+        ],
+        [
+          -1650,
+          650,
+          95
+        ],
+        [
+          -1000,
+          650,
+          95
+        ]
+      ],
+      "detection_radius_cm": 1750,
+      "attack_range_cm": 1050
+    },
+    {
+      "id": "WarehouseEast",
+      "actor_label": "WarehouseEast",
+      "actor_tag": "R7Id:WarehouseEast",
+      "zone": "warehouse",
+      "location_cm": [
+        700,
+        400,
+        96
+      ],
+      "patrol_points_cm": [
+        [
+          700,
+          400,
+          95
+        ],
+        [
+          100,
+          400,
+          95
+        ],
+        [
+          100,
+          -250,
+          95
+        ]
+      ],
+      "detection_radius_cm": 1700,
+      "attack_range_cm": 1050
+    },
+    {
+      "id": "WarehouseMezzanine",
+      "actor_label": "WarehouseMezzanine",
+      "actor_tag": "R7Id:WarehouseMezzanine",
+      "zone": "warehouse",
+      "location_cm": [
+        -700,
+        1420,
+        496
+      ],
+      "patrol_points_cm": [
+        [
+          -700,
+          1420,
+          495
+        ]
+      ],
+      "detection_radius_cm": 1650,
+      "attack_range_cm": 1050
+    },
+    {
+      "id": "LoadingPatrol",
+      "actor_label": "LoadingPatrol",
+      "actor_tag": "R7Id:LoadingPatrol",
+      "zone": "warehouse",
+      "location_cm": [
+        2600,
+        -900,
+        96
+      ],
+      "patrol_points_cm": [
+        [
+          2600,
+          -900,
+          95
+        ],
+        [
+          2700,
+          350,
+          95
+        ],
+        [
+          2400,
+          1700,
+          95
+        ]
+      ],
+      "detection_radius_cm": 1700,
+      "attack_range_cm": 1050
+    },
+    {
+      "id": "PumpPatrol",
+      "actor_label": "PumpPatrol",
+      "actor_tag": "R7Id:PumpPatrol",
+      "zone": "fuel",
+      "location_cm": [
+        3400,
+        -2200,
+        96
+      ],
+      "patrol_points_cm": [
+        [
+          3400,
+          -2200,
+          95
+        ],
+        [
+          3500,
+          -3200,
+          95
+        ],
+        [
+          3300,
+          -3800,
+          95
+        ]
+      ],
+      "detection_radius_cm": 1600,
+      "attack_range_cm": 1000
+    },
+    {
+      "id": "FuelSouth",
+      "actor_label": "FuelSouth",
+      "actor_tag": "R7Id:FuelSouth",
+      "zone": "fuel",
+      "location_cm": [
+        6700,
+        -2200,
+        96
+      ],
+      "patrol_points_cm": [
+        [
+          6700,
+          -2200,
+          95
+        ],
+        [
+          7200,
+          -1800,
+          95
+        ],
+        [
+          7200,
+          -700,
+          95
+        ]
+      ],
+      "detection_radius_cm": 1650,
+      "attack_range_cm": 1050
+    },
+    {
+      "id": "FuelNorth",
+      "actor_label": "FuelNorth",
+      "actor_tag": "R7Id:FuelNorth",
+      "zone": "fuel",
+      "location_cm": [
+        4800,
+        1500,
+        96
+      ],
+      "patrol_points_cm": [
+        [
+          4800,
+          1500,
+          95
+        ],
+        [
+          4200,
+          1800,
+          95
+        ],
+        [
+          3800,
+          1500,
+          95
+        ]
+      ],
+      "detection_radius_cm": 1650,
+      "attack_range_cm": 1050
+    },
+    {
+      "id": "CommsApproach",
+      "actor_label": "CommsApproach",
+      "actor_tag": "R7Id:CommsApproach",
+      "zone": "comms",
+      "location_cm": [
+        3500,
+        3900,
+        396
+      ],
+      "patrol_points_cm": [
+        [
+          3500,
+          3900,
+          395
+        ],
+        [
+          3500,
+          3700,
+          395
+        ],
+        [
+          4700,
+          3700,
+          395
+        ]
+      ],
+      "detection_radius_cm": 1750,
+      "attack_range_cm": 1100
+    },
+    {
+      "id": "CommsUpper",
+      "actor_label": "CommsUpper",
+      "actor_tag": "R7Id:CommsUpper",
+      "zone": "comms",
+      "location_cm": [
+        2670,
+        5000,
+        796
+      ],
+      "patrol_points_cm": [
+        [
+          2670,
+          5000,
+          795
+        ]
+      ],
+      "detection_radius_cm": 1450,
+      "attack_range_cm": 950
+    },
+    {
+      "id": "RailPatrol",
+      "actor_label": "RailPatrol",
+      "actor_tag": "R7Id:RailPatrol",
+      "zone": "comms",
+      "location_cm": [
+        5750,
+        4300,
+        396
+      ],
+      "patrol_points_cm": [
+        [
+          5750,
+          4300,
+          395
+        ],
+        [
+          6400,
+          4300,
+          395
+        ],
+        [
+          6850,
+          5000,
+          395
+        ]
+      ],
+      "detection_radius_cm": 1800,
+      "attack_range_cm": 1100
+    }
+  ],
+  "extractions": [
+    {
+      "id": "S-01",
+      "name": "南侧公路撤离",
+      "location_cm": [
+        6900,
+        -6000,
+        10
+      ],
+      "required_mission_id": "",
+      "actor_label": "S-01",
+      "actor_tag": "R7Id:S-01"
+    },
+    {
+      "id": "N-02",
+      "name": "北侧铁路撤离",
+      "location_cm": [
+        6500,
+        5900,
+        310
+      ],
+      "required_mission_id": "FrontierIntel",
+      "actor_label": "N-02",
+      "actor_tag": "R7Id:N-02"
+    }
+  ],
+  "preview_views": [
+    {
+      "id": "01_insertion",
+      "location_cm": [
+        -7000,
+        -6100,
+        88
+      ],
+      "yaw": 45,
+      "pitch": 0,
+      "show_tactical_map": false
+    },
+    {
+      "id": "02_warehouse_approach",
+      "location_cm": [
+        -1800,
+        -2400,
+        88
+      ],
+      "yaw": 62,
+      "pitch": 0,
+      "show_tactical_map": false
+    },
+    {
+      "id": "03_warehouse_inside",
+      "location_cm": [
+        -1050,
+        -1050,
+        88
+      ],
+      "yaw": 48,
+      "pitch": 5,
+      "show_tactical_map": false
+    },
+    {
+      "id": "04_warehouse_mezzanine",
+      "location_cm": [
+        600,
+        1110,
+        488
+      ],
+      "yaw": -122,
+      "pitch": -12,
+      "show_tactical_map": false
+    },
+    {
+      "id": "05_fuel_drainage",
+      "location_cm": [
+        3650,
+        -4550,
+        -192
+      ],
+      "yaw": 0,
+      "pitch": 4,
+      "show_tactical_map": false
+    },
+    {
+      "id": "06_comms_approach",
+      "location_cm": [
+        5000,
+        3750,
+        388
+      ],
+      "yaw": 144,
+      "pitch": 5,
+      "show_tactical_map": false
+    },
+    {
+      "id": "07_intel_terminal",
+      "location_cm": [
+        1980,
+        4900,
+        788
+      ],
+      "yaw": 0,
+      "pitch": -8,
+      "show_tactical_map": false
+    },
+    {
+      "id": "08_tactical_map",
+      "location_cm": [
+        -7000,
+        -6100,
+        88
+      ],
+      "yaw": 45,
+      "pitch": 0,
+      "show_tactical_map": true
+    }
+  ],
+  "route_coordinate_convention": "walkable surface; player centre adds capsule half-height 88cm",
+  "mission": {
+    "id": "FrontierIntel",
+    "actor_label": "R7_Objective_FrontierIntel",
+    "actor_tag": "R7Id:FrontierIntel",
+    "definition": "/Game/Data/DA_FrontierIntel",
+    "location_cm": [
+      2200,
+      4900,
+      700
+    ],
+    "hold_seconds": 6,
+    "interaction_stand_cm": [
+      1980,
+      4900,
+      700
+    ],
+    "entry_route_id": "comms_upper"
+  },
+  "navigation": {
+    "location_cm": [
+      0,
+      0,
+      500
+    ],
+    "extent_cm": [
+      8100,
+      7100,
+      1300
+    ],
+    "agent_radius_cm": 42,
+    "agent_height_cm": 192
+  },
+  "counts": {
+    "solids_actors": 233,
+    "clusters_actors": 68,
+    "instances": 958,
+    "signs_actors": 26,
+    "lights_actors": 22,
+    "gameplay_actors": 1,
+    "loot_actors": 24,
+    "guards_actors": 12,
+    "mission_actors": 1,
+    "extractions_actors": 2,
+    "navigation_actors": 1,
+    "route_anchors_actors": 80,
+    "environment_actors": 350
+  }
+}

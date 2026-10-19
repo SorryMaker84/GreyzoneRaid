@@ -1,0 +1,139 @@
+{
+  "audio": [
+    {
+      "asset_name": "S_RifleShot",
+      "file": "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\Prepared\\S_RifleShot.wav",
+      "duration_seconds": 1.1499791666666668,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_bits": 16,
+      "source_files": [
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\FreeFirearm\\Extracted\\Prepared SFX Library\\AK-47\\C_28P.wav"
+      ],
+      "license": "CC0 1.0"
+    },
+    {
+      "asset_name": "S_RifleShotFar",
+      "file": "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\Prepared\\S_RifleShotFar.wav",
+      "duration_seconds": 1.1499791666666668,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_bits": 16,
+      "source_files": [
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\FreeFirearm\\Extracted\\Prepared SFX Library\\AK-47\\C_31P.wav"
+      ],
+      "license": "CC0 1.0"
+    },
+    {
+      "asset_name": "S_Footstep",
+      "file": "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\Prepared\\S_Footstep.wav",
+      "duration_seconds": 0.10591666666666667,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_bits": 16,
+      "source_files": [
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\KenneyImpact\\Extracted\\Audio\\footstep_concrete_000.ogg"
+      ],
+      "license": "CC0 1.0"
+    },
+    {
+      "asset_name": "S_Footstep_01",
+      "file": "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\Prepared\\S_Footstep_01.wav",
+      "duration_seconds": 0.107625,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_bits": 16,
+      "source_files": [
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\KenneyImpact\\Extracted\\Audio\\footstep_concrete_001.ogg"
+      ],
+      "license": "CC0 1.0"
+    },
+    {
+      "asset_name": "S_Footstep_02",
+      "file": "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\Prepared\\S_Footstep_02.wav",
+      "duration_seconds": 0.11277083333333333,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_bits": 16,
+      "source_files": [
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\KenneyImpact\\Extracted\\Audio\\footstep_concrete_002.ogg"
+      ],
+      "license": "CC0 1.0"
+    },
+    {
+      "asset_name": "S_Footstep_03",
+      "file": "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\Prepared\\S_Footstep_03.wav",
+      "duration_seconds": 0.11047916666666667,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_bits": 16,
+      "source_files": [
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\KenneyImpact\\Extracted\\Audio\\footstep_concrete_003.ogg"
+      ],
+      "license": "CC0 1.0"
+    },
+    {
+      "asset_name": "S_Footstep_04",
+      "file": "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\Prepared\\S_Footstep_04.wav",
+      "duration_seconds": 0.11433333333333333,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_bits": 16,
+      "source_files": [
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\KenneyImpact\\Extracted\\Audio\\footstep_concrete_004.ogg"
+      ],
+      "license": "CC0 1.0"
+    },
+    {
+      "asset_name": "S_Hit",
+      "file": "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\Prepared\\S_Hit.wav",
+      "duration_seconds": 0.40458333333333335,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_bits": 16,
+      "source_files": [
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\KenneyImpact\\Extracted\\Audio\\impactPunch_medium_001.ogg"
+      ],
+      "license": "CC0 1.0"
+    },
+    {
+      "asset_name": "S_Empty",
+      "file": "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\Prepared\\S_Empty.wav",
+      "duration_seconds": 0.16,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_bits": 16,
+      "source_files": [
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\KenneyImpact\\Extracted\\Audio\\impactMetal_light_000.ogg"
+      ],
+      "license": "CC0 1.0"
+    },
+    {
+      "asset_name": "S_Reload",
+      "file": "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\Prepared\\S_Reload.wav",
+      "duration_seconds": 2.1,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_bits": 16,
+      "source_files": [
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\KenneyImpact\\Extracted\\Audio\\impactPlate_light_000.ogg",
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\KenneyImpact\\Extracted\\Audio\\impactMetal_light_002.ogg",
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\KenneyImpact\\Extracted\\Audio\\impactTin_medium_001.ogg",
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\KenneyImpact\\Extracted\\Audio\\impactMetal_light_003.ogg"
+      ],
+      "license": "CC0 1.0"
+    },
+    {
+      "asset_name": "S_Alert",
+      "file": "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\Prepared\\S_Alert.wav",
+      "duration_seconds": 0.65,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_bits": 16,
+      "source_files": [
+        "C:\\Users\\ggbo\\Documents\\Codex\\2026-10-06\\task\\GreyzoneRaid\\Downloads\\Audio\\KenneyImpact\\Extracted\\Audio\\impactBell_heavy_000.ogg"
+      ],
+      "license": "CC0 1.0"
+    }
+  ]
+}

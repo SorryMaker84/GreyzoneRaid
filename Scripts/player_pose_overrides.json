@@ -1,0 +1,25 @@
+{
+  "pose": {
+    "weapon_model_offset": [0.0, 0.0, 0.0],
+    "weapon_model_rotation": [0.0, -90.0, 0.0],
+    "weapon_model_scale": [1.0, 1.0, 1.0],
+    "hip_weapon_location": [24.0, 17.0, -18.0],
+    "ads_weapon_location": [22.0, 0.0, -14.41],
+    "muzzle_offset": [70.06, 0.0, 9.57],
+    "arms_offset": [0.0, 0.0, 0.0],
+    "arms_rotation": [0.0, 0.0, 0.0],
+    "arms_scale": [0.1, 0.1, 0.1]
+  },
+  "assets": {
+    "arms_idle_animation": "/Game/Weapons/A_FPSArms_Grip_R7",
+    "arms_reload_animation": "/Game/Weapons/A_FPSArms_Reload_R7",
+    "arms_fire_animation": "/Game/Weapons/A_FPSArms_Fire_R7"
+  },
+  "_notes": {
+    "status": "R7 authored grip and shared magazine trajectory; retained source assets are unchanged. See Evidence/R7Hands_Keyframes_After05 for runtime review.",
+    "weapon_bounds_cm": "Imported size 7.77 X / 103.06 Y / 28.70 Z. +Y barrel is rotated -90 yaw to +X. Scale remains 1; stock extends behind camera instead of displaying a small complete floating gun.",
+    "sight": "Binary FBX IRONSIGHT bone after root orientation gives approximately Y=67.23 Z=14.41 cm, so ADS Z is -14.41. Rear-sight extra geometry is near Y=17.27 Z=13.38 cm. Runtime sight-notch alignment still needs checking.",
+    "muzzle": "Binary FBX BARREL + FX_FIRE translations give approximately Y=70.06 Z=9.57 cm before weapon yaw. MuzzleOffset is already in WeaponRoot +X coordinates.",
+    "arms": "Imported rig uses scale 0.1 and identity placement. A_FPSArms_Grip is explicitly authored in weapon-root centimetres by author_grip_pose.py; source animation remains intact."
+  }
+}
